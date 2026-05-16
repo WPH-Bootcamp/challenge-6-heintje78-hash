@@ -24,9 +24,14 @@ const bookManager_1 = require("./functions/bookManager");
     publicationYear: 2011
 });
 (0, bookManager_1.addBook)({
-    title: "Deceptions and Myths of the Bible",
-    author: "Lloyd M. Graham",
-    publicationYear: 2012
+    title: "Sapiens: A Brief History of Humankind",
+    author: "Yuval Noah Harari",
+    publicationYear: 2014
+});
+(0, bookManager_1.addBook)({
+    title: "The Magic of Thinking Big",
+    author: "David J. Schwartz",
+    publicationYear: 2007
 });
 // 2. Tampilkan semua buku
 (0, bookManager_1.listBooks)();
@@ -35,4 +40,4 @@ const bookManager_1 = require("./functions/bookManager");
 // 4. Uji coba pencarian tanpa parameter (akan menampilkan semua)
 (0, bookManager_1.searchBook)();
 // 5. Uji coba pencarian buku yang tidak ada
-(0, bookManager_1.searchBook)("Personality Puzzles");
+(0, bookManager_1.searchBook)("How to Win Friends and Influence People");

@@ -43,7 +43,7 @@ const searchBook = (title) => {
     const filteredBooks = books_1.books.filter((book) => book.title.toLowerCase().includes(title.toLowerCase()));
     if (filteredBooks.length > 0) {
         filteredBooks.forEach((book) => {
-            console.log(`🔍 Ditemukan: ${book.title} - ${book.author} (${book.publicationYear})`);
+            console.log(`Ditemukan: ${book.title} - ${book.author} (${book.publicationYear})`);
         });
     }
     else {

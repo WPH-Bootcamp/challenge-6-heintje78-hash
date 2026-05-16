@@ -68,7 +68,7 @@ export const searchBook = (title?: string): void => {
 
     if (filteredBooks.length > 0) {
         filteredBooks.forEach((book) => {
-            console.log(`🔍 Ditemukan: ${book.title} - ${book.author} (${book.publicationYear})`);
+            console.log(`Ditemukan: ${book.title} - ${book.author} (${book.publicationYear})`);
         });
     } else {
         console.log(`Tidak ada buku dengan judul yang mengandung kata "${title}"`);
